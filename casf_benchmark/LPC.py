@@ -1,4 +1,5 @@
 import os
+import re
 import pybel
 import tempfile
 import shlex
@@ -20,6 +21,51 @@ def lpc(complex_pdb, lpc_bin="/home/jaydy/local/LPC/lpcEx"):
         return result
     finally:
         shutil.rmtree(tmp_dir)
+
+
+class LPCParser:
+    def __init__(self, lpc_result):
+        self._lpc_result = lpc_result
+
+    def readContacts(self):
+        """read the contacts
+        """
+        lines = self._lpc_result.splitlines()
+        pattern = "Residue      Dist    Surf    HB    Arom    Phob    DC"
+        pattern_line_num = -1
+        for idx, line in enumerate(lines):
+            if pattern in line:
+                pattern_line_num = idx
+        if pattern_line_num == -1:
+            raise RuntimeError("Cannot find contacts in the LPC result")
+
+        contacts = []
+        for idx, line in enumerate(lines):
+            if idx > pattern_line_num + 1:
+                if '----------' in line:
+                    break
+                contacts.append(line)
+
+        return contacts
+
+    def consensusChainID(self):
+        """return the ID of the chain that has the most ligand contacts
+        """
+        regx = r'\D'
+        pattern = re.compile(regx)
+        contacts = self.readContacts()
+        counts = {}
+        for line in contacts:
+            first_token = line.split()[0]
+            chain_id = pattern.findall(first_token)[0]
+            if chain_id in counts:
+                counts[chain_id] = counts[chain_id] + 1
+            else:
+                counts[chain_id] = 1
+
+        counts = counts.items()
+        counts.sort(key=lambda t: t[1], reverse=True)
+        return counts[0][0]
 
 
 class LPC:
