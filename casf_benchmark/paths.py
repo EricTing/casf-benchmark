@@ -8,3 +8,4 @@ class Path:
         self.id = id
         self.dat_dir = path.join(DAT, self.id)
         self.complex_pdb = path.join(self.dat_dir, self.id + "_complex.pdb")
+        self.protein_pdb = path.join(self.dat_dir, self.id + "_protein.pdb")
