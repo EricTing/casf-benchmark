@@ -1,4 +1,5 @@
 import os
+import string
 import re
 import pybel
 import tempfile
@@ -12,7 +13,6 @@ def lpc(complex_pdb, lpc_bin="/home/jaydy/local/LPC/lpcEx"):
         tmp_dir = tempfile.mkdtemp()
         merged_pdb_path = complex_pdb
         cmds = "{} 1 {}".format(lpc_bin, merged_pdb_path)
-        print(cmds)
         cmds = shlex.split(cmds)
         os.chdir(tmp_dir)
         subprocess32.call(cmds)
@@ -81,6 +81,11 @@ class LPC:
                                prt.write('pdb').splitlines(True))
         lig_pdb_lines = filter(lambda s: ('ATOM' in s) or ('HETATM' in s),
                                lig.write('pdb').splitlines(True))
+
+        prt_pdb_lines = [string.replace(line, 'HETATM', 'ATOM  ')
+                         for line in prt_pdb_lines]
+        lig_pdb_lines = [string.replace(line, 'ATOM  ', 'HETATM')
+                         for line in lig_pdb_lines]
         to_write = []
         to_write.append("MODEL 1\n")
         to_write.extend(prt_pdb_lines)
@@ -100,7 +105,6 @@ class LPC:
             with open(merged_pdb_path, 'w') as ofs:
                 ofs.write(merged)
             cmds = "{} 1 {}".format(lpc_bin, merged_pdb_path)
-            print(cmds)
             cmds = shlex.split(cmds)
             os.chdir(tmp_dir)
             subprocess32.call(cmds)

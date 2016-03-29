@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import os
+import glob
 import luigi
 import paths
 import LPC
@@ -46,7 +47,36 @@ class SelectChain(luigi.Task):
         return luigi.LocalTarget(path)
 
 
+class SelectDomainChain(luigi.Task):
+    def find(self, tname):
+        myid = tname[:4]
+        lig_sdf = paths.Path(myid).ligand_sdf
+        domain = paths.Domain(tname)
+        pdbs = glob.glob(os.path.join(domain.dat_dir, "*.pdb"))
+
+        mx_cnts = -1
+        mx_pdb = ""
+        for pdb in pdbs:
+            lpc_job = LPC.LPC(lig_sdf, pdb)
+            result = lpc_job.runLPC()
+            parser = LPC.LPCParser(result)
+            num_contacts = len(parser.readContacts())
+            if num_contacts > mx_cnts:
+                mx_cnts = num_contacts
+                mx_pdb = pdb
+
+        return mx_pdb
+
+    def run(self):
+        for tname in [_.rstrip() for _ in file("../dat/domains.txt")]:
+            mx_pdb = self.find(tname)
+            print(mx_pdb)
+
+
 if __name__ == '__main__':
     import sys
-    tname = sys.argv[1]
-    luigi.build([SelectChain(tname)], local_scheduler=True)
+    if len(sys.argv) > 1:
+        tname = sys.argv[1]
+        luigi.build([SelectChain(tname), ], local_scheduler=True)
+    else:
+        luigi.build([SelectDomainChain()], local_scheduler=True)

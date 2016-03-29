@@ -6,25 +6,25 @@ import os
 
 class TestLPC(unittest.TestCase):
     def setUp(self):
-        self.protein_pdb = paths.Path("1hfs").protein_pdb
-        self.ligand_sdf = paths.Path("1hfs").ligand_sdf
+        self.protein_pdb = paths.Path("1zea").protein_pdb
+        self.ligand_sdf = paths.Path("1zea").ligand_sdf
         lpc_job = LPC.LPC(self.ligand_sdf, self.protein_pdb)
         self.lpc_result = lpc_job.runLPC()
         self.lpc_parser = LPC.LPCParser(self.lpc_result)
 
     def test_run(self):
         contacts = self.lpc_parser.readContacts()
-        self.assertEqual(32, len(contacts))
-        self.assertEqual('A', self.lpc_parser.consensusChainID())
+        self.assertEqual(6, len(contacts))
+        self.assertEqual('H', self.lpc_parser.consensusChainID())
 
 
 class TestSelectChain(unittest.TestCase):
     def setUp(self):
-        self.protein_path = paths.Path("1hfs").protein_pdb
+        self.protein_path = paths.Path("1zea").protein_pdb
 
     def test_select(self):
         os.chdir(os.path.dirname(__file__))
-        ofn = "./1hfs_A.pdb"
+        ofn = "./1zea_A.pdb"
         protein.selectChain(self.protein_path, ofn, chainID='A')
 
 

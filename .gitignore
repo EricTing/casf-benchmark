@@ -8,3 +8,4 @@ build/
 .coverage
 /10gs_A.pdb
 pbs/*
+*.pdb

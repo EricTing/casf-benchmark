@@ -40,7 +40,6 @@ def isSingleChain(ifn):
         chains.append(chain.id)
 
     chains = [c for c in chains if c != ' ']
-    print(chains)
     if len(chains) == 1:
         return chains[0]
     else:
