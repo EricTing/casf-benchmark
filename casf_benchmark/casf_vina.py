@@ -48,7 +48,7 @@ class RunVina(luigi.Task):
         stdout = subprocess32.check_output(cmds)
         box_size, x, y, z = stdout.split()
 
-        cmd = '''%s --receptor %s --ligand %s --center_x %s --center_y %s --center_z %s --size_x %s --size_y %s --size_z %s --cpu 1 --out %s''' % (
+        cmd = '''%s --receptor %s --ligand %s --center_x %s --center_y %s --center_z %s --size_x %s --size_y %s --size_z %s --cpu 16 --out %s''' % (
             VINA_BIN, prt_pdbqt, lig_pdbqt, x, y, z, box_size, box_size,
             box_size, self.output().path)
         print(cmd)
@@ -78,7 +78,7 @@ class RunVinaOnPredictedPocket(RunVina):
         box_size, x, y, z = stdout.split()  # only for box_size
         x, y, z = POCKETS[self.tname]  # use the predicted binding pockets
 
-        cmd = '''%s --receptor %s --ligand %s --center_x %s --center_y %s --center_z %s --size_x %s --size_y %s --size_z %s --cpu 1 --out %s''' % (
+        cmd = '''%s --receptor %s --ligand %s --center_x %s --center_y %s --center_z %s --size_x %s --size_y %s --size_z %s --cpu 16 --out %s''' % (
             VINA_BIN, prt_pdbqt, lig_pdbqt, x, y, z, box_size, box_size,
             box_size, self.output().path)
 
