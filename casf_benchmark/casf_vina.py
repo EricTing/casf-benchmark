@@ -25,18 +25,15 @@ class LigPdbqt(luigi.Task):
         return luigi.LocalTarget(ofn)
 
 
-class RunVina(luigi.Task):
-    """benchmark Vina using the geometric center of the native ligand
-    """
+class VinaRandomizedLigand(luigi.Task):
     tname = luigi.Parameter()
-
-    def output(self):
-        ofn = os.path.splitext(self.requires().output().path)[
-            0] + "_vina.pdbqt"
-        return luigi.LocalTarget(ofn)
 
     def requires(self):
         return LigPdbqt(self.tname)
+
+    @property
+    def native_lig_pdbqt(self):
+        return self.requires().output().path
 
     def run(self):
         lig_pdbqt = self.requires().output().path
@@ -48,14 +45,47 @@ class RunVina(luigi.Task):
         stdout = subprocess32.check_output(cmds)
         box_size, x, y, z = stdout.split()
 
-        cmd = '''%s --receptor %s --ligand %s --center_x %s --center_y %s --center_z %s --size_x %s --size_y %s --size_z %s --out %s''' % (
-            VINA_BIN, prt_pdbqt, lig_pdbqt, x, y, z, box_size, box_size,
-            box_size, self.output().path)
-        print(cmd)
-        vina_out = subprocess32.check_output(shlex.split(cmd))
         ofn = self.output().path + ".txt"
-        with open(ofn, 'w') as ofs:
-            ofs.write(vina_out)
+        cmd = '''%s --receptor %s --ligand %s --center_x %s --center_y %s --center_z %s --size_x %s --size_y %s --size_z %s --randomize_only --log %s --out %s''' % (
+            VINA_BIN, prt_pdbqt, lig_pdbqt, x, y, z, box_size, box_size,
+            box_size, ofn, self.output().path)
+        print(cmd)
+        _ = subprocess32.check_output(shlex.split(cmd))
+
+    def output(self):
+        ofn = os.path.splitext(self.native_lig_pdbqt)[0] + '_rnd.pdbqt'
+        return luigi.LocalTarget(ofn)
+
+
+class RunVina(luigi.Task):
+    """benchmark Vina using the geometric center of the native ligand
+    """
+    tname = luigi.Parameter()
+
+    def output(self):
+        ofn = os.path.splitext(self.requires().output().path)[
+            0] + "_vina.pdbqt"
+        return luigi.LocalTarget(ofn)
+
+    def requires(self):
+        return VinaRandomizedLigand(self.tname)
+
+    def run(self):
+        lig_pdbqt = self.requires().output().path
+        vina_path = VinaPath(self.tname)
+        lig_sdf = vina_path.lig_sdf
+        prt_pdbqt = vina_path.prt_pdbqt
+
+        cmds = ['perl', BOX_GYRA_BIN, lig_sdf]
+        stdout = subprocess32.check_output(cmds)
+        box_size, x, y, z = stdout.split()
+
+        ofn = self.output().path + ".txt"
+        cmd = '''%s --receptor %s --ligand %s --center_x %s --center_y %s --center_z %s --size_x %s --size_y %s --size_z %s --log %s --out %s''' % (
+            VINA_BIN, prt_pdbqt, lig_pdbqt, x, y, z, box_size, box_size,
+            box_size, ofn, self.output().path)
+        print(cmd)
+        _ = subprocess32.check_output(shlex.split(cmd))
 
 
 class RunVinaOnPredictedPocket(RunVina):
@@ -78,15 +108,12 @@ class RunVinaOnPredictedPocket(RunVina):
         box_size, x, y, z = stdout.split()  # only for box_size
         x, y, z = POCKETS[self.tname]  # use the predicted binding pockets
 
-        cmd = '''%s --receptor %s --ligand %s --center_x %s --center_y %s --center_z %s --size_x %s --size_y %s --size_z %s --out %s''' % (
-            VINA_BIN, prt_pdbqt, lig_pdbqt, x, y, z, box_size, box_size,
-            box_size, self.output().path)
-
-        print(cmd)
-        vina_out = subprocess32.check_output(shlex.split(cmd))
         ofn = self.output().path + ".txt"
-        with open(ofn, 'w') as ofs:
-            ofs.write(vina_out)
+        cmd = '''%s --receptor %s --ligand %s --center_x %s --center_y %s --center_z %s --size_x %s --size_y %s --size_z %s --log %s --out %s''' % (
+            VINA_BIN, prt_pdbqt, lig_pdbqt, x, y, z, box_size, box_size,
+            box_size, ofn, self.output().path)
+        print(cmd)
+        _ = subprocess32.check_output(shlex.split(cmd))
 
 
 class EvalVinaResult(luigi.Task):
@@ -121,16 +148,12 @@ class EvalVinaResult(luigi.Task):
 
 
 def main(tname):
-    luigi.build(
-        [LigPdbqt(tname), RunVina(tname), RunVinaOnPredictedPocket(tname),
-         EvalVinaResult(tname)],
-        local_scheduler=True)
+    luigi.build([EvalVinaResult(tname)], local_scheduler=True)
 
 
 def test():
     tname = "10gsA00"
-    eval = EvalVinaResult(tname)
-    luigi.build([eval], local_scheduler=True)
+    luigi.build([EvalVinaResult(tname)], local_scheduler=True)
 
 
 if __name__ == '__main__':
