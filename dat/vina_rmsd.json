@@ -1,0 +1,742 @@
+{
+    "3cyxA00": {
+        "native_pocket_vina_rmsd": 6.060819783575452,
+        "predicted_pocket_vina_rmsd": 5.594287215452884
+    },
+    "1q8tA00": {
+        "native_pocket_vina_rmsd": 7.60421534778938,
+        "predicted_pocket_vina_rmsd": 2.307354341135222
+    },
+    "3mygA00": {
+        "native_pocket_vina_rmsd": 3.92404395575109,
+        "predicted_pocket_vina_rmsd": 11.188807492311232
+    },
+    "3s8oA00": {
+        "native_pocket_vina_rmsd": 4.261033718635814,
+        "predicted_pocket_vina_rmsd": 4.42072725458826
+    },
+    "3noxA04": {
+        "native_pocket_vina_rmsd": 2.572208945078696,
+        "predicted_pocket_vina_rmsd": 6.838086866953358
+    },
+    "3dd0A00": {
+        "native_pocket_vina_rmsd": 1.032184848997504,
+        "predicted_pocket_vina_rmsd": 1.0509525738585925
+    },
+    "2xysA00": {
+        "native_pocket_vina_rmsd": 0.9000807074923888,
+        "predicted_pocket_vina_rmsd": 4.894884370442269
+    },
+    "2d1oA00": {
+        "native_pocket_vina_rmsd": 3.8192806319324775,
+        "predicted_pocket_vina_rmsd": 11.81630715014918
+    },
+    "2fvdA00": {
+        "native_pocket_vina_rmsd": 8.642667956134842,
+        "predicted_pocket_vina_rmsd": 8.865990698543884
+    },
+    "1n2vA00": {
+        "native_pocket_vina_rmsd": 2.69884607440538,
+        "predicted_pocket_vina_rmsd": 2.7206136440148936
+    },
+    "4dewA00": {
+        "native_pocket_vina_rmsd": 6.806099550788109,
+        "predicted_pocket_vina_rmsd": 6.612929489157693
+    },
+    "3su5A00": {
+        "native_pocket_vina_rmsd": 0.6586871591164546,
+        "predicted_pocket_vina_rmsd": 4.8701118231321265
+    },
+    "4de1A00": {
+        "native_pocket_vina_rmsd": 1.2343555086518356,
+        "predicted_pocket_vina_rmsd": 9.168225950910925
+    },
+    "3nq3A00": {
+        "native_pocket_vina_rmsd": 1.661769789511572,
+        "predicted_pocket_vina_rmsd": 1.7695079589158864
+    },
+    "3dxgA00": {
+        "native_pocket_vina_rmsd": 2.6391860217011716,
+        "predicted_pocket_vina_rmsd": 2.7691201284368803
+    },
+    "3ov1A00": {
+        "native_pocket_vina_rmsd": 9.11449021355233,
+        "predicted_pocket_vina_rmsd": 5.1955843723866355
+    },
+    "2ykiA00": {
+        "native_pocket_vina_rmsd": 1.9856308302697274,
+        "predicted_pocket_vina_rmsd": 9.616379708907212
+    },
+    "3oztA00": {
+        "native_pocket_vina_rmsd": 0.603992629734994,
+        "predicted_pocket_vina_rmsd": 0.6522084566821729
+    },
+    "1z95A00": {
+        "native_pocket_vina_rmsd": 0.43601633155113617,
+        "predicted_pocket_vina_rmsd": 4.293942039825329
+    },
+    "1hfsA00": {
+        "native_pocket_vina_rmsd": 1.5578129516433268,
+        "predicted_pocket_vina_rmsd": 2.3254016361116565
+    },
+    "1n1mA05": {
+        "native_pocket_vina_rmsd": 4.6078238627360735,
+        "predicted_pocket_vina_rmsd": 4.609225187960915
+    },
+    "2gssA00": {
+        "native_pocket_vina_rmsd": 3.2905534089028405,
+        "predicted_pocket_vina_rmsd": 3.316898567225588
+    },
+    "1utoA00": {
+        "native_pocket_vina_rmsd": 4.006421082323835,
+        "predicted_pocket_vina_rmsd": 4.10946073780436
+    },
+    "1mq6A00": {
+        "native_pocket_vina_rmsd": 0.43933918180224557,
+        "predicted_pocket_vina_rmsd": 8.291303204764215
+    },
+    "3cj2A02": {
+        "native_pocket_vina_rmsd": 0.466411060951365,
+        "predicted_pocket_vina_rmsd": 0.44878830693818694
+    },
+    "1lbkB00": {
+        "native_pocket_vina_rmsd": 2.2927608902805368,
+        "predicted_pocket_vina_rmsd": 2.393459504566559
+    },
+    "3kv2A00": {
+        "native_pocket_vina_rmsd": 5.301423063668849,
+        "predicted_pocket_vina_rmsd": 5.300900835392666
+    },
+    "2wegA00": {
+        "native_pocket_vina_rmsd": 0.5593153282037212,
+        "predicted_pocket_vina_rmsd": 3.495925407463017
+    },
+    "2jduC00": {
+        "native_pocket_vina_rmsd": 3.847601558113834,
+        "predicted_pocket_vina_rmsd": 3.0769415821558916
+    },
+    "3zsoB00": {
+        "native_pocket_vina_rmsd": 7.086001940445683,
+        "predicted_pocket_vina_rmsd": 7.082448599113934
+    },
+    "3gbbA00": {
+        "native_pocket_vina_rmsd": 1.0763133063069203,
+        "predicted_pocket_vina_rmsd": 1.0731813557000618
+    },
+    "3l4uA02": {
+        "native_pocket_vina_rmsd": 3.3649118386397854,
+        "predicted_pocket_vina_rmsd": 2.010651149616597
+    },
+    "3bfuA00": {
+        "native_pocket_vina_rmsd": 5.011630689373137,
+        "predicted_pocket_vina_rmsd": 2.482115277339067
+    },
+    "2g70A00": {
+        "native_pocket_vina_rmsd": 1.9759266349403417,
+        "predicted_pocket_vina_rmsd": 5.79708169685403
+    },
+    "3acwA00": {
+        "native_pocket_vina_rmsd": 2.2164946370768592,
+        "predicted_pocket_vina_rmsd": 3.4774304895315753
+    },
+    "2zxdA01": {
+        "native_pocket_vina_rmsd": 0.392252363494048,
+        "predicted_pocket_vina_rmsd": 2.087078101078156
+    },
+    "2cetA00": {
+        "native_pocket_vina_rmsd": 6.602649086127889,
+        "predicted_pocket_vina_rmsd": 3.8955405623260133
+    },
+    "2cbjA02": {
+        "native_pocket_vina_rmsd": 2.1267049912952203,
+        "predicted_pocket_vina_rmsd": 2.06347141487349
+    },
+    "3owjA00": {
+        "native_pocket_vina_rmsd": 5.165504792554621,
+        "predicted_pocket_vina_rmsd": 5.754191300592076
+    },
+    "2r23A00": {
+        "native_pocket_vina_rmsd": 7.128017796995581,
+        "predicted_pocket_vina_rmsd": 7.3537142238269135
+    },
+    "2v7aA00": {
+        "native_pocket_vina_rmsd": 2.0571150047717666,
+        "predicted_pocket_vina_rmsd": 2.094342037831589
+    },
+    "4djvA00": {
+        "native_pocket_vina_rmsd": 1.0815694119459662,
+        "predicted_pocket_vina_rmsd": 6.795370230637075
+    },
+    "4de2A00": {
+        "native_pocket_vina_rmsd": 0.8016729642857281,
+        "predicted_pocket_vina_rmsd": 3.006091814965072
+    },
+    "1bcuH00": {
+        "native_pocket_vina_rmsd": 0.33582640604931663,
+        "predicted_pocket_vina_rmsd": 2.68565753122024
+    },
+    "2qmjA02": {
+        "native_pocket_vina_rmsd": 1.8701802842118045,
+        "predicted_pocket_vina_rmsd": 9.146780761309113
+    },
+    "4g8mA00": {
+        "native_pocket_vina_rmsd": 0.9357093565846183,
+        "predicted_pocket_vina_rmsd": 0.9176777302880719
+    },
+    "1ps3A01": {
+        "native_pocket_vina_rmsd": 0.8747074510943647,
+        "predicted_pocket_vina_rmsd": 4.671603538936068
+    },
+    "2x0yA02": {
+        "native_pocket_vina_rmsd": 0.6345397282019988,
+        "predicted_pocket_vina_rmsd": 0.6524965730007922
+    },
+    "2vvnA02": {
+        "native_pocket_vina_rmsd": 2.9827966533104466,
+        "predicted_pocket_vina_rmsd": 2.7946816567365955
+    },
+    "3uo4A00": {
+        "native_pocket_vina_rmsd": 2.100195721585376,
+        "predicted_pocket_vina_rmsd": 8.667912233217328
+    },
+    "1gpkA01": {
+        "native_pocket_vina_rmsd": 0.4598108306684379,
+        "predicted_pocket_vina_rmsd": 5.488611249163531
+    },
+    "4djrB00": {
+        "native_pocket_vina_rmsd": 4.534103869564525,
+        "predicted_pocket_vina_rmsd": 8.508602131078877
+    },
+    "2zx6A01": {
+        "native_pocket_vina_rmsd": 0.7857590809741458,
+        "predicted_pocket_vina_rmsd": 6.856242894253382
+    },
+    "2pcpB00": {
+        "native_pocket_vina_rmsd": 0.6060381817821199,
+        "predicted_pocket_vina_rmsd": 4.1921364415348465
+    },
+    "3kgpA00": {
+        "native_pocket_vina_rmsd": 4.626007732965277,
+        "predicted_pocket_vina_rmsd": 2.041488182674591
+    },
+    "3ueuA00": {
+        "native_pocket_vina_rmsd": 4.376441076948255,
+        "predicted_pocket_vina_rmsd": 4.6882698377363665
+    },
+    "2wtvA00": {
+        "native_pocket_vina_rmsd": 0.8058628185696007,
+        "predicted_pocket_vina_rmsd": 0.7058943430354232
+    },
+    "3e93A00": {
+        "native_pocket_vina_rmsd": 0.26989482435981654,
+        "predicted_pocket_vina_rmsd": 11.026488004015727
+    },
+    "1zeaH00": {
+        "native_pocket_vina_rmsd": 8.355524359881398,
+        "predicted_pocket_vina_rmsd": 7.944633490602319
+    },
+    "1igjD00": {
+        "native_pocket_vina_rmsd": 7.924510217621603,
+        "predicted_pocket_vina_rmsd": 10.373923671945507
+    },
+    "3vd4A01": {
+        "native_pocket_vina_rmsd": 3.605113229844522,
+        "predicted_pocket_vina_rmsd": 3.486737997995643
+    },
+    "3nw9A00": {
+        "native_pocket_vina_rmsd": 5.483483194773958,
+        "predicted_pocket_vina_rmsd": 5.864616328815596
+    },
+    "2hb1A00": {
+        "native_pocket_vina_rmsd": 4.268361294789505,
+        "predicted_pocket_vina_rmsd": 4.301627416289262
+    },
+    "1e66A01": {
+        "native_pocket_vina_rmsd": 0.9178291935711305,
+        "predicted_pocket_vina_rmsd": 5.840692188268034
+    },
+    "3n86A00": {
+        "native_pocket_vina_rmsd": 0.9758164697363413,
+        "predicted_pocket_vina_rmsd": 3.1276603493457484
+    },
+    "3g2zA00": {
+        "native_pocket_vina_rmsd": 4.746705351326085,
+        "predicted_pocket_vina_rmsd": 4.728601752998611
+    },
+    "3lkaA00": {
+        "native_pocket_vina_rmsd": 2.1454507102238445,
+        "predicted_pocket_vina_rmsd": 1.479966469214759
+    },
+    "1f8bA00": {
+        "native_pocket_vina_rmsd": 4.795055375071283,
+        "predicted_pocket_vina_rmsd": 4.742447717160413
+    },
+    "1f8dA00": {
+        "native_pocket_vina_rmsd": 0.9927366216676002,
+        "predicted_pocket_vina_rmsd": 4.870651214160176
+    },
+    "3f3aA00": {
+        "native_pocket_vina_rmsd": 2.198917824749256,
+        "predicted_pocket_vina_rmsd": 2.3232618018639224
+    },
+    "2iwxA00": {
+        "native_pocket_vina_rmsd": 0.6853034911628574,
+        "predicted_pocket_vina_rmsd": 0.6428653630426827
+    },
+    "2x8zA00": {
+        "native_pocket_vina_rmsd": 0.9468293329393036,
+        "predicted_pocket_vina_rmsd": 3.510240122026657
+    },
+    "3imcA00": {
+        "native_pocket_vina_rmsd": 0.29710038095505087,
+        "predicted_pocket_vina_rmsd": 4.506651962276531
+    },
+    "3bpcA00": {
+        "native_pocket_vina_rmsd": 4.3216848313186835,
+        "predicted_pocket_vina_rmsd": 6.551239155209493
+    },
+    "3ge7A00": {
+        "native_pocket_vina_rmsd": 2.17296066196826,
+        "predicted_pocket_vina_rmsd": 5.12459668206642
+    },
+    "3b68A00": {
+        "native_pocket_vina_rmsd": 1.2530246502737084,
+        "predicted_pocket_vina_rmsd": 7.424206257128577
+    },
+    "2yfeA00": {
+        "native_pocket_vina_rmsd": 1.387726529255674,
+        "predicted_pocket_vina_rmsd": 8.44153474434596
+    },
+    "2zcrA00": {
+        "native_pocket_vina_rmsd": 1.7103805132192078,
+        "predicted_pocket_vina_rmsd": 3.050055860144204
+    },
+    "1r5yA00": {
+        "native_pocket_vina_rmsd": 0.25865584500228517,
+        "predicted_pocket_vina_rmsd": 4.1655891447761535
+    },
+    "1kelL00": {
+        "native_pocket_vina_rmsd": 4.282679458916588,
+        "predicted_pocket_vina_rmsd": 8.681209785958755
+    },
+    "3bkkA00": {
+        "native_pocket_vina_rmsd": 0.8258742842184479,
+        "predicted_pocket_vina_rmsd": 0.642311861775709
+    },
+    "3fv1A00": {
+        "native_pocket_vina_rmsd": 0.7142143535782115,
+        "predicted_pocket_vina_rmsd": 0.7140831950997094
+    },
+    "3b3wA00": {
+        "native_pocket_vina_rmsd": 2.192154064942617,
+        "predicted_pocket_vina_rmsd": 1.9803068785754727
+    },
+    "2d3uA02": {
+        "native_pocket_vina_rmsd": 0.7027588491082839,
+        "predicted_pocket_vina_rmsd": 2.1878701379973946
+    },
+    "2qbrA00": {
+        "native_pocket_vina_rmsd": 2.808951615562545,
+        "predicted_pocket_vina_rmsd": 6.683731266505046
+    },
+    "2xbvA00": {
+        "native_pocket_vina_rmsd": 8.38670102503561,
+        "predicted_pocket_vina_rmsd": 1.001069178428744
+    },
+    "3pe2A00": {
+        "native_pocket_vina_rmsd": 0.3355957389479195,
+        "predicted_pocket_vina_rmsd": 0.220596743124016
+    },
+    "3g0wA00": {
+        "native_pocket_vina_rmsd": 0.498987224285352,
+        "predicted_pocket_vina_rmsd": 0.19221125530693192
+    },
+    "1slnA00": {
+        "native_pocket_vina_rmsd": 6.871677958943402,
+        "predicted_pocket_vina_rmsd": 7.521359438293054
+    },
+    "3jvsA00": {
+        "native_pocket_vina_rmsd": 2.854736987301399,
+        "predicted_pocket_vina_rmsd": 2.1669673124745867
+    },
+    "2ymdB00": {
+        "native_pocket_vina_rmsd": 4.962509337328941,
+        "predicted_pocket_vina_rmsd": 5.099710942034626
+    },
+    "3pwwA00": {
+        "native_pocket_vina_rmsd": 3.26900184790903,
+        "predicted_pocket_vina_rmsd": 10.90883618065312
+    },
+    "3coyA00": {
+        "native_pocket_vina_rmsd": 4.780416070432741,
+        "predicted_pocket_vina_rmsd": 7.519437502555542
+    },
+    "3muz101": {
+        "native_pocket_vina_rmsd": 3.687459983963669,
+        "predicted_pocket_vina_rmsd": 3.4989882632936418
+    },
+    "3b3sA00": {
+        "native_pocket_vina_rmsd": 1.7626560135835405,
+        "predicted_pocket_vina_rmsd": 1.2788482231202327
+    },
+    "2xy9A00": {
+        "native_pocket_vina_rmsd": 10.755635403879053,
+        "predicted_pocket_vina_rmsd": 3.8186294482111127
+    },
+    "3ehyA00": {
+        "native_pocket_vina_rmsd": 0.9114860845635226,
+        "predicted_pocket_vina_rmsd": 1.0818571450764383
+    },
+    "2xb8A00": {
+        "native_pocket_vina_rmsd": 0.6290946236096323,
+        "predicted_pocket_vina_rmsd": 2.177951007462999
+    },
+    "1os0A00": {
+        "native_pocket_vina_rmsd": 6.322515968459753,
+        "predicted_pocket_vina_rmsd": 1.1900146817821802
+    },
+    "3kwaA00": {
+        "native_pocket_vina_rmsd": 3.4855275271983066,
+        "predicted_pocket_vina_rmsd": 3.6560261018136697
+    },
+    "3d4zA01": {
+        "native_pocket_vina_rmsd": 3.543191579837106,
+        "predicted_pocket_vina_rmsd": 3.779843052297278
+    },
+    "1lolA00": {
+        "native_pocket_vina_rmsd": 6.398433880646107,
+        "predicted_pocket_vina_rmsd": 6.375853707543799
+    },
+    "3ejrA02": {
+        "native_pocket_vina_rmsd": 8.656357132189036,
+        "predicted_pocket_vina_rmsd": 7.942105259942102
+    },
+    "1w3lA00": {
+        "native_pocket_vina_rmsd": 1.9385768620304942,
+        "predicted_pocket_vina_rmsd": 10.083846131932992
+    },
+    "3f3eA00": {
+        "native_pocket_vina_rmsd": 1.3335902669110922,
+        "predicted_pocket_vina_rmsd": 1.3270098383625903
+    },
+    "2y5hA00": {
+        "native_pocket_vina_rmsd": 2.1349541431956776,
+        "predicted_pocket_vina_rmsd": 1.0792257081038508
+    },
+    "3su3A00": {
+        "native_pocket_vina_rmsd": 0.30910039890587926,
+        "predicted_pocket_vina_rmsd": 4.609496057668386
+    },
+    "3vh9A00": {
+        "native_pocket_vina_rmsd": 0.3851009312800049,
+        "predicted_pocket_vina_rmsd": 3.2770129414120133
+    },
+    "2ygeA00": {
+        "native_pocket_vina_rmsd": 0.7514846638488374,
+        "predicted_pocket_vina_rmsd": 0.770683203398128
+    },
+    "3utuH00": {
+        "native_pocket_vina_rmsd": 1.3974398095362086,
+        "predicted_pocket_vina_rmsd": 8.562797272367224
+    },
+    "3f80A00": {
+        "native_pocket_vina_rmsd": 1.4318621034629462,
+        "predicted_pocket_vina_rmsd": 1.497101310310472
+    },
+    "3l4wA02": {
+        "native_pocket_vina_rmsd": 0.5085439298344123,
+        "predicted_pocket_vina_rmsd": 4.876316335103786
+    },
+    "3su2A00": {
+        "native_pocket_vina_rmsd": 0.5401687463282225,
+        "predicted_pocket_vina_rmsd": 3.122329751712873
+    },
+    "2zjwA00": {
+        "native_pocket_vina_rmsd": 0.5599904625811214,
+        "predicted_pocket_vina_rmsd": 0.6516874599488206
+    },
+    "3n7aA00": {
+        "native_pocket_vina_rmsd": 0.2916191866115804,
+        "predicted_pocket_vina_rmsd": 6.651999123070698
+    },
+    "2x97A00": {
+        "native_pocket_vina_rmsd": 3.6642625853120365,
+        "predicted_pocket_vina_rmsd": 6.799716561999435
+    },
+    "3hucA00": {
+        "native_pocket_vina_rmsd": 1.1086164216582628,
+        "predicted_pocket_vina_rmsd": 7.37257442598355
+    },
+    "3gnwA01": {
+        "native_pocket_vina_rmsd": 8.090142701573203,
+        "predicted_pocket_vina_rmsd": 6.050433269609706
+    },
+    "2xhmA00": {
+        "native_pocket_vina_rmsd": 0.9066248814563139,
+        "predicted_pocket_vina_rmsd": 10.078915669906216
+    },
+    "2qbpA00": {
+        "native_pocket_vina_rmsd": 1.0370278345973798,
+        "predicted_pocket_vina_rmsd": 11.368425589252821
+    },
+    "2wcaA02": {
+        "native_pocket_vina_rmsd": 7.2948113676015565,
+        "predicted_pocket_vina_rmsd": 8.448574994899698
+    },
+    "3ivgB00": {
+        "native_pocket_vina_rmsd": 8.816480952132224,
+        "predicted_pocket_vina_rmsd": 1.2980945186350432
+    },
+    "3oe5A00": {
+        "native_pocket_vina_rmsd": 5.001970917999836,
+        "predicted_pocket_vina_rmsd": 2.487128095070763
+    },
+    "2w66A02": {
+        "native_pocket_vina_rmsd": 0.4732515847834005,
+        "predicted_pocket_vina_rmsd": 3.302641281989311
+    },
+    "1loqA00": {
+        "native_pocket_vina_rmsd": 6.486818197956015,
+        "predicted_pocket_vina_rmsd": 0.9437427262412851
+    },
+    "2x00A00": {
+        "native_pocket_vina_rmsd": 0.6033831197416688,
+        "predicted_pocket_vina_rmsd": 4.266400242244863
+    },
+    "1o3fA00": {
+        "native_pocket_vina_rmsd": 2.16077238042326,
+        "predicted_pocket_vina_rmsd": 1.8640028862638593
+    },
+    "3ag9B00": {
+        "native_pocket_vina_rmsd": 9.17384343843058,
+        "predicted_pocket_vina_rmsd": 9.413354552197273
+    },
+    "1u1bA00": {
+        "native_pocket_vina_rmsd": 2.099497269422784,
+        "predicted_pocket_vina_rmsd": 7.195931741439115
+    },
+    "2v00A00": {
+        "native_pocket_vina_rmsd": 0.761464706995669,
+        "predicted_pocket_vina_rmsd": 4.718964776569115
+    },
+    "1p1qC00": {
+        "native_pocket_vina_rmsd": 5.103135469041032,
+        "predicted_pocket_vina_rmsd": 4.983451977834704
+    },
+    "2vo5A03": {
+        "native_pocket_vina_rmsd": 3.893963623353459,
+        "predicted_pocket_vina_rmsd": 3.131525363141739
+    },
+    "2zcqA00": {
+        "native_pocket_vina_rmsd": 5.3454109439780195,
+        "predicted_pocket_vina_rmsd": 5.6113473248409775
+    },
+    "2vw5A00": {
+        "native_pocket_vina_rmsd": 0.578439423506616,
+        "predicted_pocket_vina_rmsd": 0.37031229313168146
+    },
+    "3uexA00": {
+        "native_pocket_vina_rmsd": 4.196262223693843,
+        "predicted_pocket_vina_rmsd": 4.529562914895873
+    },
+    "1w3kA00": {
+        "native_pocket_vina_rmsd": 2.3391766255916377,
+        "predicted_pocket_vina_rmsd": 6.96447272129874
+    },
+    "2pq9A01": {
+        "native_pocket_vina_rmsd": 1.2435945739209842,
+        "predicted_pocket_vina_rmsd": 0.8879983912469344
+    },
+    "2j62A02": {
+        "native_pocket_vina_rmsd": 0.7972266511684959,
+        "predicted_pocket_vina_rmsd": 1.1570502565992093
+    },
+    "3i3bA01": {
+        "native_pocket_vina_rmsd": 4.052783179495296,
+        "predicted_pocket_vina_rmsd": 4.067516830532687
+    },
+    "1h23A01": {
+        "native_pocket_vina_rmsd": 6.425934979527191,
+        "predicted_pocket_vina_rmsd": 6.460179383474321
+    },
+    "4gidA00": {
+        "native_pocket_vina_rmsd": 2.5263645059692545,
+        "predicted_pocket_vina_rmsd": 0.8316659389698208
+    },
+    "1vsoA00": {
+        "native_pocket_vina_rmsd": 5.108448543717508,
+        "predicted_pocket_vina_rmsd": 5.023988739750802
+    },
+    "2xdlA00": {
+        "native_pocket_vina_rmsd": 0.966783552559724,
+        "predicted_pocket_vina_rmsd": 0.3092834460490889
+    },
+    "2jdyA00": {
+        "native_pocket_vina_rmsd": 3.485652659336335,
+        "predicted_pocket_vina_rmsd": 3.4349199296456563
+    },
+    "1o5bB00": {
+        "native_pocket_vina_rmsd": 1.220893210223249,
+        "predicted_pocket_vina_rmsd": 3.718735155109349
+    },
+    "3l3nA00": {
+        "native_pocket_vina_rmsd": 6.939814516813673,
+        "predicted_pocket_vina_rmsd": 8.767992664293871
+    },
+    "2zwzA01": {
+        "native_pocket_vina_rmsd": 0.42656955274999736,
+        "predicted_pocket_vina_rmsd": 4.410215867732554
+    },
+    "3gcsA00": {
+        "native_pocket_vina_rmsd": 0.3662924463458129,
+        "predicted_pocket_vina_rmsd": 0.40196758264815363
+    },
+    "2jdmB00": {
+        "native_pocket_vina_rmsd": 2.9764716808104636,
+        "predicted_pocket_vina_rmsd": 2.981788333645879
+    },
+    "3fk1A01": {
+        "native_pocket_vina_rmsd": 4.4761349733894304,
+        "predicted_pocket_vina_rmsd": 6.204321139335069
+    },
+    "1hnnA00": {
+        "native_pocket_vina_rmsd": 0.9525471866827084,
+        "predicted_pocket_vina_rmsd": 5.77756993528792
+    },
+    "2qftA01": {
+        "native_pocket_vina_rmsd": 3.819918952019793,
+        "predicted_pocket_vina_rmsd": 5.012890982257643
+    },
+    "4gqqA01": {
+        "native_pocket_vina_rmsd": 2.108612687685121,
+        "predicted_pocket_vina_rmsd": 7.031097358639454
+    },
+    "3udhA00": {
+        "native_pocket_vina_rmsd": 4.672172269328874,
+        "predicted_pocket_vina_rmsd": 4.122060823007278
+    },
+    "3fcqA00": {
+        "native_pocket_vina_rmsd": 1.1336185425441845,
+        "predicted_pocket_vina_rmsd": 0.9648226335890514
+    },
+    "1nvqA00": {
+        "native_pocket_vina_rmsd": 0.558593645784761,
+        "predicted_pocket_vina_rmsd": 0.31439452391329376
+    },
+    "1f8cA00": {
+        "native_pocket_vina_rmsd": 4.427299080703719,
+        "predicted_pocket_vina_rmsd": 4.450071583693908
+    },
+    "3zsxB00": {
+        "native_pocket_vina_rmsd": 4.935220106540336,
+        "predicted_pocket_vina_rmsd": 4.905945357720689
+    },
+    "1w4oA00": {
+        "native_pocket_vina_rmsd": 0.8068028613873758,
+        "predicted_pocket_vina_rmsd": 1.6078353830686831
+    },
+    "1oytH00": {
+        "native_pocket_vina_rmsd": 0.41723670340307634,
+        "predicted_pocket_vina_rmsd": 1.0000929123503142
+    },
+    "3mfvA00": {
+        "native_pocket_vina_rmsd": 5.287580688600556,
+        "predicted_pocket_vina_rmsd": 5.236932880990552
+    },
+    "10gsA00": {
+        "native_pocket_vina_rmsd": 7.631506624752177,
+        "predicted_pocket_vina_rmsd": 7.412478244640771
+    },
+    "2oleA00": {
+        "native_pocket_vina_rmsd": 4.272493631748716,
+        "predicted_pocket_vina_rmsd": 3.060391352969965
+    },
+    "3f17A00": {
+        "native_pocket_vina_rmsd": 1.0120975625849893,
+        "predicted_pocket_vina_rmsd": 0.9703695908555373
+    },
+    "2obfA00": {
+        "native_pocket_vina_rmsd": 0.6330665532703215,
+        "predicted_pocket_vina_rmsd": 3.3394775040416134
+    },
+    "2votA03": {
+        "native_pocket_vina_rmsd": 3.2976524156656444,
+        "predicted_pocket_vina_rmsd": 3.3510545762084023
+    },
+    "3gy4A00": {
+        "native_pocket_vina_rmsd": 1.2086577679392951,
+        "predicted_pocket_vina_rmsd": 4.672077332407929
+    },
+    "3uriA00": {
+        "native_pocket_vina_rmsd": 13.915651540621447,
+        "predicted_pocket_vina_rmsd": 12.669417463385537
+    },
+    "1sqaA00": {
+        "native_pocket_vina_rmsd": 1.4703442980603927,
+        "predicted_pocket_vina_rmsd": 1.176914254009323
+    },
+    "4desA00": {
+        "native_pocket_vina_rmsd": 6.5185670890723255,
+        "predicted_pocket_vina_rmsd": 6.453864068994066
+    },
+    "3cftA00": {
+        "native_pocket_vina_rmsd": 4.339156861265408,
+        "predicted_pocket_vina_rmsd": 4.335159258896955
+    },
+    "3pxfA00": {
+        "native_pocket_vina_rmsd": 1.603617220684598,
+        "predicted_pocket_vina_rmsd": 2.287877577477391
+    },
+    "1yc1A00": {
+        "native_pocket_vina_rmsd": 0.8418185561517884,
+        "predicted_pocket_vina_rmsd": 0.814481202747878
+    },
+    "3f3cA00": {
+        "native_pocket_vina_rmsd": 0.8931611535181364,
+        "predicted_pocket_vina_rmsd": 1.1362773564448214
+    },
+    "1jyqA00": {
+        "native_pocket_vina_rmsd": 7.083222980568437,
+        "predicted_pocket_vina_rmsd": 7.00076654967289
+    },
+    "1xd0A01": {
+        "native_pocket_vina_rmsd": 2.0353929261045307,
+        "predicted_pocket_vina_rmsd": 8.864986147761314
+    },
+    "1a30A00": {
+        "native_pocket_vina_rmsd": 4.266503481955507,
+        "predicted_pocket_vina_rmsd": 4.379094132703352
+    },
+    "1q8uA00": {
+        "native_pocket_vina_rmsd": 0.3653999676568628,
+        "predicted_pocket_vina_rmsd": 0.3807747484943155
+    },
+    "2xnbA00": {
+        "native_pocket_vina_rmsd": 0.8437949988000639,
+        "predicted_pocket_vina_rmsd": 0.628271172875747
+    },
+    "2brbA00": {
+        "native_pocket_vina_rmsd": 1.1898940793196677,
+        "predicted_pocket_vina_rmsd": 1.863036499910831
+    },
+    "2p4yA00": {
+        "native_pocket_vina_rmsd": 0.4837713561177428,
+        "predicted_pocket_vina_rmsd": 6.95734486532039
+    },
+    "3u9qA00": {
+        "native_pocket_vina_rmsd": 1.1725637153974473,
+        "predicted_pocket_vina_rmsd": 1.2235260860861663
+    },
+    "4tmnE00": {
+        "native_pocket_vina_rmsd": 9.220272630941501,
+        "predicted_pocket_vina_rmsd": 6.2409021516657885
+    },
+    "1lorA00": {
+        "native_pocket_vina_rmsd": 1.0923770369744557,
+        "predicted_pocket_vina_rmsd": 1.263404023767823
+    },
+    "1u33A01": {
+        "native_pocket_vina_rmsd": 1.5881427919988107,
+        "predicted_pocket_vina_rmsd": 8.384827777665508
+    }
+}
