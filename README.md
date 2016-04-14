@@ -1,6 +1,8 @@
 - [CASF Benchmark](#sec-1)
 - [Benchmark AutoDock Vina](#sec-2)
 - [Benchmark GeauxDock](#sec-3)
+  - [using native pockets](#sec-3-1)
+  - [using predicted pockets](#sec-3-2)
 
 # CASF Benchmark<a id="orgheadline1"></a>
 
@@ -76,4 +78,8 @@ Benchmark CASF-2015 dataset
 2.  result
     ./dat/vina\_rmsd.json
 
-# TODO Benchmark GeauxDock<a id="orgheadline3"></a>
+# TODO Benchmark GeauxDock<a id="orgheadline5"></a>
+
+## TODO using native pockets<a id="orgheadline3"></a>
+
+## TODO using predicted pockets<a id="orgheadline4"></a>
