@@ -80,6 +80,9 @@ Benchmark CASF-2015 dataset
 
 # TODO Benchmark GeauxDock<a id="orgheadline5"></a>
 
-## TODO using native pockets<a id="orgheadline3"></a>
+## DONE using native pockets<a id="orgheadline3"></a>
+
+1.  result
+    ./dat/geaux\_native\_rmsd.json
 
 ## TODO using predicted pockets<a id="orgheadline4"></a>

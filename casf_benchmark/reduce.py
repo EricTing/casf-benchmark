@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
 from casf_vina import EvalVinaResult
+import pandas as pd
 import luigi
+import os
 import json
 
 
@@ -25,8 +27,31 @@ class ReduceVinaRMSD(luigi.Task):
             ofs.write(json.dumps(datas, indent=4, separators=(',', ': ')))
 
 
+class ReduceGeauxNativePktRMSD(luigi.Task):
+    def output(self):
+        ofn = "../dat/geaux_native_rmsd.json"
+        return luigi.LocalTarget(ofn)
+
+    def run(self):
+        tnames = [_.rstrip() for _ in file("../dat/casf_names.txt")]
+        datas = {}
+        for tname in tnames:
+            try:
+                csv_ifn = os.path.join(
+                    "/work/jaydy/dat/website-core-set/output/", tname,
+                    tname + '_native_pkt.csv')
+                df = pd.read_csv(csv_ifn, sep=' ')
+                datas[tname] = df['rmsd'][0]
+            except Exception as e:
+                print(e, tname, 'fails')
+
+        with open(self.output().path, 'w') as ofs:
+            ofs.write(json.dumps(datas, indent=4, separators=(',', ': ')))
+
+
 def main():
-    luigi.build([ReduceVinaRMSD()], local_scheduler=True)
+    luigi.build([ReduceVinaRMSD(), ReduceGeauxNativePktRMSD()],
+                local_scheduler=True)
 
 
 if __name__ == '__main__':
