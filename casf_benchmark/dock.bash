@@ -3,6 +3,7 @@
 complex=$1
 
 readonly bin=~/local/bin/dock
+# readonly bin=~/Workspace/Bitbucket/geauxdock/src/dock
 
 readonly PDB_DIR=/work/jaydy/dat/website-core-set/input/protein-pdb
 
@@ -23,6 +24,32 @@ mkdir -p $out_dir
 
 csv_file=$out_dir/$complex.csv
 
+
+cmd="\
+${bin} \
+--id ${complex} \
+-p ${pdb_file} \
+-l ${sdf_file} \
+-s ${ff_file} \
+\
+--para ${paras} \
+\
+--csv $csv_file \
+ --nc 10 \
+--floor_temp 0.01 \
+--ceiling_temp 0.036 \
+--nt 1 \
+-t 0.02 \
+-r 0.08 \
+"
+
+
+echo ${cmd}
+${cmd}
+
+
+ff_file=$FF_DIR/${complex}_native_pkt.ff
+csv_file=$out_dir/${complex}_native_pkt.csv
 
 cmd="\
 ${bin} \
