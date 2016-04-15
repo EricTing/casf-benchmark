@@ -84,10 +84,16 @@ def eval_rmsd():
 
     data = {}
     for tname in [_.rstrip() for _ in file("../dat/casf_names.txt")]:
-        data[tname] = {"native_pocket_geaux_rmsd": native_foo(tname),
-                       "predicted_pocket_geaux_rmsd": pred_foo(tname)}
+        data[tname] = native_foo(tname)
 
-    with open("../dat/geaux_rmsd.json", 'w') as ofs:
+    with open("../dat/geaux_native_rmsd.json", 'w') as ofs:
+        ofs.write(json.dumps(data, indent=4, separators=(',', ': ')))
+
+    data = {}
+    for tname in [_.rstrip() for _ in file("../dat/casf_names.txt")]:
+        data[tname] = pred_foo(tname)
+
+    with open("../dat/geaux_pred_rmsd.json", 'w') as ofs:
         ofs.write(json.dumps(data, indent=4, separators=(',', ': ')))
 
 
