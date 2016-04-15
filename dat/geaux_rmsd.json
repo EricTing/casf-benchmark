@@ -1,0 +1,782 @@
+{
+    "3cyxA00": {
+        "predicted_pocket_geaux_rmsd": 7.688332515930239,
+        "native_pocket_geaux_rmsd": 4.913566373909721
+    },
+    "1q8tA00": {
+        "predicted_pocket_geaux_rmsd": 2.339123051724965,
+        "native_pocket_geaux_rmsd": 2.705908722489442
+    },
+    "3mygA00": {
+        "predicted_pocket_geaux_rmsd": 9.49543302151092,
+        "native_pocket_geaux_rmsd": 5.544408544230243
+    },
+    "3gy4A00": {
+        "predicted_pocket_geaux_rmsd": 5.237989641551422,
+        "native_pocket_geaux_rmsd": 4.178297150634455
+    },
+    "3noxA04": {
+        "predicted_pocket_geaux_rmsd": 9.279521195371945,
+        "native_pocket_geaux_rmsd": 6.052210571412256
+    },
+    "3dd0A00": {
+        "predicted_pocket_geaux_rmsd": 2.477414174472044,
+        "native_pocket_geaux_rmsd": 4.343915076863268
+    },
+    "2xysA00": {
+        "predicted_pocket_geaux_rmsd": 4.381111902474074,
+        "native_pocket_geaux_rmsd": 3.024810787933685
+    },
+    "2cetA00": {
+        "predicted_pocket_geaux_rmsd": 6.326519867984293,
+        "native_pocket_geaux_rmsd": 4.55660461163992
+    },
+    "2fvdA00": {
+        "predicted_pocket_geaux_rmsd": 7.83121134067606,
+        "native_pocket_geaux_rmsd": 5.358724209548388
+    },
+    "1n2vA00": {
+        "predicted_pocket_geaux_rmsd": 1.7636752947561893,
+        "native_pocket_geaux_rmsd": 4.640159246189725
+    },
+    "4dewA00": {
+        "predicted_pocket_geaux_rmsd": 7.03851896434389,
+        "native_pocket_geaux_rmsd": 6.293832770373595
+    },
+    "3imcA00": {
+        "predicted_pocket_geaux_rmsd": 6.620225848179886,
+        "native_pocket_geaux_rmsd": 1.0427630306938476
+    },
+    "2j78A00": {
+        "predicted_pocket_geaux_rmsd": null,
+        "native_pocket_geaux_rmsd": null
+    },
+    "4de1A00": {
+        "predicted_pocket_geaux_rmsd": 4.578871633359316,
+        "native_pocket_geaux_rmsd": 0.542544607663137
+    },
+    "3nq3A00": {
+        "predicted_pocket_geaux_rmsd": 6.441065461875596,
+        "native_pocket_geaux_rmsd": 5.276552205749509
+    },
+    "3dxgA00": {
+        "predicted_pocket_geaux_rmsd": 0.2176175019221961,
+        "native_pocket_geaux_rmsd": 0.10719921152872817
+    },
+    "3ov1A00": {
+        "predicted_pocket_geaux_rmsd": 4.337966750882804,
+        "native_pocket_geaux_rmsd": 0.19801945685744515
+    },
+    "2wcaA02": {
+        "predicted_pocket_geaux_rmsd": 5.551003468509762,
+        "native_pocket_geaux_rmsd": 1.5292318511084066
+    },
+    "3oztA00": {
+        "predicted_pocket_geaux_rmsd": 4.754388978787169,
+        "native_pocket_geaux_rmsd": 0.39911485896313303
+    },
+    "1z95A00": {
+        "predicted_pocket_geaux_rmsd": 5.609339407231234,
+        "native_pocket_geaux_rmsd": 0.17444339265612566
+    },
+    "1hfsA00": {
+        "predicted_pocket_geaux_rmsd": 5.0785200005854225,
+        "native_pocket_geaux_rmsd": 4.9881001872147985
+    },
+    "1n1mA05": {
+        "predicted_pocket_geaux_rmsd": 2.223972153602648,
+        "native_pocket_geaux_rmsd": 0.9898158763965468
+    },
+    "2gssA00": {
+        "predicted_pocket_geaux_rmsd": 3.647148733130985,
+        "native_pocket_geaux_rmsd": 0.11620301880307343
+    },
+    "1utoA00": {
+        "predicted_pocket_geaux_rmsd": 4.741691061682998,
+        "native_pocket_geaux_rmsd": 1.2219788555181028
+    },
+    "1mq6A00": {
+        "predicted_pocket_geaux_rmsd": 8.54995615734373,
+        "native_pocket_geaux_rmsd": 6.603660339686198
+    },
+    "3mfvA00": {
+        "predicted_pocket_geaux_rmsd": 1.4468756982387414,
+        "native_pocket_geaux_rmsd": 0.9808450908821903
+    },
+    "1lbkB00": {
+        "predicted_pocket_geaux_rmsd": 0.4623299341379488,
+        "native_pocket_geaux_rmsd": 1.3308692505276387
+    },
+    "3kv2A00": {
+        "predicted_pocket_geaux_rmsd": 1.5978967548520353,
+        "native_pocket_geaux_rmsd": 1.573698172299885
+    },
+    "2wegA00": {
+        "predicted_pocket_geaux_rmsd": 4.651855008586262,
+        "native_pocket_geaux_rmsd": 2.1182996330676516
+    },
+    "2jduC00": {
+        "predicted_pocket_geaux_rmsd": 0.8747058786624605,
+        "native_pocket_geaux_rmsd": 0.5805299209917323
+    },
+    "3zsoB00": {
+        "predicted_pocket_geaux_rmsd": 7.422739194422036,
+        "native_pocket_geaux_rmsd": 5.957699389769815
+    },
+    "3gbbA00": {
+        "predicted_pocket_geaux_rmsd": 1.9598700786021508,
+        "native_pocket_geaux_rmsd": 0.8062960853323191
+    },
+    "3l4uA02": {
+        "predicted_pocket_geaux_rmsd": 7.896961232737795,
+        "native_pocket_geaux_rmsd": 3.720448327028735
+    },
+    "3bfuA00": {
+        "predicted_pocket_geaux_rmsd": 1.1214818188450486,
+        "native_pocket_geaux_rmsd": 0.11526566777087838
+    },
+    "2g70A00": {
+        "predicted_pocket_geaux_rmsd": 6.225735411124805,
+        "native_pocket_geaux_rmsd": 5.713081487020235
+    },
+    "3acwA00": {
+        "predicted_pocket_geaux_rmsd": 2.5845081769394085,
+        "native_pocket_geaux_rmsd": 6.345059556927136
+    },
+    "2zxdA01": {
+        "predicted_pocket_geaux_rmsd": 4.808492118204348,
+        "native_pocket_geaux_rmsd": 1.2521965274402151
+    },
+    "2d1oA00": {
+        "predicted_pocket_geaux_rmsd": 9.430959284894264,
+        "native_pocket_geaux_rmsd": 3.0347502328957168
+    },
+    "1qi0A00": {
+        "predicted_pocket_geaux_rmsd": null,
+        "native_pocket_geaux_rmsd": null
+    },
+    "2cbjA02": {
+        "predicted_pocket_geaux_rmsd": 3.6053802410286764,
+        "native_pocket_geaux_rmsd": 1.7397631937709215
+    },
+    "2yfeA00": {
+        "predicted_pocket_geaux_rmsd": 9.507204266344552,
+        "native_pocket_geaux_rmsd": 6.499504589274479
+    },
+    "3owjA00": {
+        "predicted_pocket_geaux_rmsd": 3.724951206903189,
+        "native_pocket_geaux_rmsd": 1.4077317339471696
+    },
+    "2r23A00": {
+        "predicted_pocket_geaux_rmsd": 8.584369551657744,
+        "native_pocket_geaux_rmsd": 4.1302654422134735
+    },
+    "3g2nA01": {
+        "predicted_pocket_geaux_rmsd": null,
+        "native_pocket_geaux_rmsd": null
+    },
+    "3ao4A00": {
+        "predicted_pocket_geaux_rmsd": null,
+        "native_pocket_geaux_rmsd": null
+    },
+    "4de2A00": {
+        "predicted_pocket_geaux_rmsd": 5.932140484541254,
+        "native_pocket_geaux_rmsd": 4.1783328495046925
+    },
+    "1bcuH00": {
+        "predicted_pocket_geaux_rmsd": 2.7977817629552524,
+        "native_pocket_geaux_rmsd": 2.7185346607823484
+    },
+    "2qmjA02": {
+        "predicted_pocket_geaux_rmsd": 11.89734610126064,
+        "native_pocket_geaux_rmsd": 8.495868171191967
+    },
+    "4g8mA00": {
+        "predicted_pocket_geaux_rmsd": 0.34286179431368624,
+        "native_pocket_geaux_rmsd": 0.2090379331604677
+    },
+    "1ps3A01": {
+        "predicted_pocket_geaux_rmsd": 5.102483964881713,
+        "native_pocket_geaux_rmsd": 3.7251343288699
+    },
+    "2zx6A01": {
+        "predicted_pocket_geaux_rmsd": 8.364757821733395,
+        "native_pocket_geaux_rmsd": 4.698895464982525
+    },
+    "2x0yA02": {
+        "predicted_pocket_geaux_rmsd": 3.27542411265744,
+        "native_pocket_geaux_rmsd": 1.8194423174881549
+    },
+    "2vvnA02": {
+        "predicted_pocket_geaux_rmsd": 4.050459724139348,
+        "native_pocket_geaux_rmsd": 0.923225462035141
+    },
+    "3uo4A00": {
+        "predicted_pocket_geaux_rmsd": 7.031602161056846,
+        "native_pocket_geaux_rmsd": 7.484115698160222
+    },
+    "1gpkA01": {
+        "predicted_pocket_geaux_rmsd": 5.720069377687263,
+        "native_pocket_geaux_rmsd": 1.1375841578147576
+    },
+    "4djrB00": {
+        "predicted_pocket_geaux_rmsd": null,
+        "native_pocket_geaux_rmsd": 7.620707310775031
+    },
+    "1vsoA00": {
+        "predicted_pocket_geaux_rmsd": 1.9951837202671459,
+        "native_pocket_geaux_rmsd": 4.13777615289041
+    },
+    "3kgpA00": {
+        "predicted_pocket_geaux_rmsd": 4.137522964836021,
+        "native_pocket_geaux_rmsd": 4.5636710897537895
+    },
+    "1f8cA00": {
+        "predicted_pocket_geaux_rmsd": 0.1596818884532617,
+        "native_pocket_geaux_rmsd": 0.10879203095815428
+    },
+    "2wtvA00": {
+        "predicted_pocket_geaux_rmsd": 6.665247955914582,
+        "native_pocket_geaux_rmsd": 5.657368744909806
+    },
+    "3l7bA01": {
+        "predicted_pocket_geaux_rmsd": null,
+        "native_pocket_geaux_rmsd": null
+    },
+    "3e93A00": {
+        "predicted_pocket_geaux_rmsd": 9.153250143867815,
+        "native_pocket_geaux_rmsd": 3.5533985444086347
+    },
+    "1zeaH00": {
+        "predicted_pocket_geaux_rmsd": 11.555653779693422,
+        "native_pocket_geaux_rmsd": 11.331189867107007
+    },
+    "1igjD00": {
+        "predicted_pocket_geaux_rmsd": 10.671273617445033,
+        "native_pocket_geaux_rmsd": 3.9889124918412993
+    },
+    "3vd4A01": {
+        "predicted_pocket_geaux_rmsd": 3.340864327585503,
+        "native_pocket_geaux_rmsd": 1.9947194830351458
+    },
+    "3nw9A00": {
+        "predicted_pocket_geaux_rmsd": 6.628637778688215,
+        "native_pocket_geaux_rmsd": 0.15372690669529912
+    },
+    "2hb1A00": {
+        "predicted_pocket_geaux_rmsd": 5.365803540477419,
+        "native_pocket_geaux_rmsd": 3.7794527599905257
+    },
+    "1e66A01": {
+        "predicted_pocket_geaux_rmsd": 7.057047621552312,
+        "native_pocket_geaux_rmsd": 6.05656940803007
+    },
+    "3mssA00": {
+        "predicted_pocket_geaux_rmsd": null,
+        "native_pocket_geaux_rmsd": null
+    },
+    "2vo5A03": {
+        "predicted_pocket_geaux_rmsd": 3.2299537661551754,
+        "native_pocket_geaux_rmsd": 2.7549789278685965
+    },
+    "4djvA00": {
+        "predicted_pocket_geaux_rmsd": 4.249617137502758,
+        "native_pocket_geaux_rmsd": 2.4706364117224067
+    },
+    "3g2zA00": {
+        "predicted_pocket_geaux_rmsd": 1.108779591401145,
+        "native_pocket_geaux_rmsd": 0.1027415315619368
+    },
+    "3lkaA00": {
+        "predicted_pocket_geaux_rmsd": 1.5945806475894113,
+        "native_pocket_geaux_rmsd": 0.5369332065847047
+    },
+    "1f8bA00": {
+        "predicted_pocket_geaux_rmsd": 0.1228744277707938,
+        "native_pocket_geaux_rmsd": 0.15964382230452856
+    },
+    "1f8dA00": {
+        "predicted_pocket_geaux_rmsd": 0.15663577177643592,
+        "native_pocket_geaux_rmsd": 0.5723864708394146
+    },
+    "3f3aA00": {
+        "predicted_pocket_geaux_rmsd": 3.124178879428428,
+        "native_pocket_geaux_rmsd": 2.738513291307286
+    },
+    "1yc1A00": {
+        "predicted_pocket_geaux_rmsd": 4.235233619993817,
+        "native_pocket_geaux_rmsd": 0.6309227862601114
+    },
+    "2x8zA00": {
+        "predicted_pocket_geaux_rmsd": 0.1359786642928117,
+        "native_pocket_geaux_rmsd": 0.15360790995258075
+    },
+    "3su5A00": {
+        "predicted_pocket_geaux_rmsd": 8.767298240621225,
+        "native_pocket_geaux_rmsd": 9.60879557597847
+    },
+    "3bpcA00": {
+        "predicted_pocket_geaux_rmsd": 5.955983309585622,
+        "native_pocket_geaux_rmsd": 0.12010310414389809
+    },
+    "3ge7A00": {
+        "predicted_pocket_geaux_rmsd": 4.913027146623713,
+        "native_pocket_geaux_rmsd": 5.03880445030977
+    },
+    "3b68A00": {
+        "predicted_pocket_geaux_rmsd": 6.921049385820603,
+        "native_pocket_geaux_rmsd": 1.6508436799054813
+    },
+    "2v7aA00": {
+        "predicted_pocket_geaux_rmsd": 6.874079583395666,
+        "native_pocket_geaux_rmsd": 7.898896734173883
+    },
+    "2zcrA00": {
+        "predicted_pocket_geaux_rmsd": 8.63827134684861,
+        "native_pocket_geaux_rmsd": 3.2348971234470065
+    },
+    "1r5yA00": {
+        "predicted_pocket_geaux_rmsd": 0.29299074808180986,
+        "native_pocket_geaux_rmsd": 2.7874629748489657
+    },
+    "1os0A00": {
+        "predicted_pocket_geaux_rmsd": 3.2556069595611286,
+        "native_pocket_geaux_rmsd": 0.28570528771545595
+    },
+    "3fv1A00": {
+        "predicted_pocket_geaux_rmsd": 2.7527969141359105,
+        "native_pocket_geaux_rmsd": 0.2601513231801462
+    },
+    "3b3wA00": {
+        "predicted_pocket_geaux_rmsd": 2.5415688730913173,
+        "native_pocket_geaux_rmsd": 3.814747939539679
+    },
+    "2d3uA02": {
+        "predicted_pocket_geaux_rmsd": 2.479973927058284,
+        "native_pocket_geaux_rmsd": 0.647076472096414
+    },
+    "2qbrA00": {
+        "predicted_pocket_geaux_rmsd": 4.936897900033698,
+        "native_pocket_geaux_rmsd": 3.5588458167641934
+    },
+    "2xbvA00": {
+        "predicted_pocket_geaux_rmsd": 8.409190961101894,
+        "native_pocket_geaux_rmsd": 1.348315948487017
+    },
+    "3pe2A00": {
+        "predicted_pocket_geaux_rmsd": 6.430321950457728,
+        "native_pocket_geaux_rmsd": 4.027518329423983
+    },
+    "1kelL00": {
+        "predicted_pocket_geaux_rmsd": 10.059004491607205,
+        "native_pocket_geaux_rmsd": 3.6801020511015365
+    },
+    "2qftA01": {
+        "predicted_pocket_geaux_rmsd": 3.3510290419511444,
+        "native_pocket_geaux_rmsd": 1.3775443691583946
+    },
+    "3jvsA00": {
+        "predicted_pocket_geaux_rmsd": 8.324064829777178,
+        "native_pocket_geaux_rmsd": 5.2330117256700275
+    },
+    "2ymdB00": {
+        "predicted_pocket_geaux_rmsd": 3.6829437781585694,
+        "native_pocket_geaux_rmsd": 4.866055412912852
+    },
+    "3pwwA00": {
+        "predicted_pocket_geaux_rmsd": 5.0831684861282485,
+        "native_pocket_geaux_rmsd": 7.610513297151675
+    },
+    "3coyA00": {
+        "predicted_pocket_geaux_rmsd": 0.2994607626836892,
+        "native_pocket_geaux_rmsd": 0.188214560130616
+    },
+    "3muz101": {
+        "predicted_pocket_geaux_rmsd": 3.0898322243556637,
+        "native_pocket_geaux_rmsd": 1.9287478917681276
+    },
+    "3b3sA00": {
+        "predicted_pocket_geaux_rmsd": 2.2864892703298074,
+        "native_pocket_geaux_rmsd": 1.1319696678307642
+    },
+    "2xy9A00": {
+        "predicted_pocket_geaux_rmsd": 7.122840303063181,
+        "native_pocket_geaux_rmsd": 7.495032969593538
+    },
+    "3ehyA00": {
+        "predicted_pocket_geaux_rmsd": 2.4463834427218334,
+        "native_pocket_geaux_rmsd": 0.5087050046585998
+    },
+    "3s8oA00": {
+        "predicted_pocket_geaux_rmsd": 4.472054223671652,
+        "native_pocket_geaux_rmsd": 0.14200427667712892
+    },
+    "2y5hA00": {
+        "predicted_pocket_geaux_rmsd": 4.472356536511531,
+        "native_pocket_geaux_rmsd": 3.0083578212984805
+    },
+    "3bkkA00": {
+        "predicted_pocket_geaux_rmsd": 3.866801557058064,
+        "native_pocket_geaux_rmsd": 0.4759970421826874
+    },
+    "3kwaA00": {
+        "predicted_pocket_geaux_rmsd": 3.8444432881386468,
+        "native_pocket_geaux_rmsd": 2.9938342286391593
+    },
+    "3k5vA00": {
+        "predicted_pocket_geaux_rmsd": null,
+        "native_pocket_geaux_rmsd": null
+    },
+    "3d4zA01": {
+        "predicted_pocket_geaux_rmsd": 4.854830521317329,
+        "native_pocket_geaux_rmsd": 0.3037729050740755
+    },
+    "1lolA00": {
+        "predicted_pocket_geaux_rmsd": 3.9447409461839196,
+        "native_pocket_geaux_rmsd": 1.4374586331729107
+    },
+    "3l4wA02": {
+        "predicted_pocket_geaux_rmsd": 5.179279678543285,
+        "native_pocket_geaux_rmsd": 3.9799073303102355
+    },
+    "3ejrA02": {
+        "predicted_pocket_geaux_rmsd": 8.428293762084945,
+        "native_pocket_geaux_rmsd": 2.955575809956497
+    },
+    "1w3lA00": {
+        "predicted_pocket_geaux_rmsd": 9.310907021992405,
+        "native_pocket_geaux_rmsd": 8.110569373085037
+    },
+    "3f3eA00": {
+        "predicted_pocket_geaux_rmsd": 0.11419748489154832,
+        "native_pocket_geaux_rmsd": 0.09183878991653324
+    },
+    "2xb8A00": {
+        "predicted_pocket_geaux_rmsd": 5.7506079465170865,
+        "native_pocket_geaux_rmsd": 3.6042853842840525
+    },
+    "3n86A00": {
+        "predicted_pocket_geaux_rmsd": 5.297678351553795,
+        "native_pocket_geaux_rmsd": 3.1093276421256992
+    },
+    "3vh9A00": {
+        "predicted_pocket_geaux_rmsd": 2.9995673554697855,
+        "native_pocket_geaux_rmsd": 2.3687664325167614
+    },
+    "2ygeA00": {
+        "predicted_pocket_geaux_rmsd": 7.053844062264915,
+        "native_pocket_geaux_rmsd": 1.2824223696777899
+    },
+    "3utuH00": {
+        "predicted_pocket_geaux_rmsd": 8.230477454300248,
+        "native_pocket_geaux_rmsd": 1.3052758447359176
+    },
+    "3f80A00": {
+        "predicted_pocket_geaux_rmsd": 0.3304361852158452,
+        "native_pocket_geaux_rmsd": 0.2881455766332944
+    },
+    "4gidA00": {
+        "predicted_pocket_geaux_rmsd": 7.337429058020891,
+        "native_pocket_geaux_rmsd": 0.8745804302270719
+    },
+    "2vw5A00": {
+        "predicted_pocket_geaux_rmsd": 6.954545160061392,
+        "native_pocket_geaux_rmsd": 0.7687434286982014
+    },
+    "3su2A00": {
+        "predicted_pocket_geaux_rmsd": 8.982272751686306,
+        "native_pocket_geaux_rmsd": 7.995506797889552
+    },
+    "2zjwA00": {
+        "predicted_pocket_geaux_rmsd": 2.7050342852809552,
+        "native_pocket_geaux_rmsd": 4.3222909322698095
+    },
+    "3n7aA00": {
+        "predicted_pocket_geaux_rmsd": 6.910699227224888,
+        "native_pocket_geaux_rmsd": 0.6702776918312792
+    },
+    "2x97A00": {
+        "predicted_pocket_geaux_rmsd": 6.946244670408355,
+        "native_pocket_geaux_rmsd": 7.029869381683376
+    },
+    "3hucA00": {
+        "predicted_pocket_geaux_rmsd": 9.230691003266102,
+        "native_pocket_geaux_rmsd": 2.8210423687524253
+    },
+    "3gnwA01": {
+        "predicted_pocket_geaux_rmsd": 2.628972048504544,
+        "native_pocket_geaux_rmsd": 0.6519616832020395
+    },
+    "2xhmA00": {
+        "predicted_pocket_geaux_rmsd": 10.427792953669275,
+        "native_pocket_geaux_rmsd": 2.508904070532617
+    },
+    "2qbpA00": {
+        "predicted_pocket_geaux_rmsd": 9.327212840581772,
+        "native_pocket_geaux_rmsd": 3.593486472547014
+    },
+    "2ykiA00": {
+        "predicted_pocket_geaux_rmsd": 9.825274151990097,
+        "native_pocket_geaux_rmsd": 9.675717490936357
+    },
+    "3ivgB00": {
+        "predicted_pocket_geaux_rmsd": 0.428192996286681,
+        "native_pocket_geaux_rmsd": 1.479065022701609
+    },
+    "3oe5A00": {
+        "predicted_pocket_geaux_rmsd": 10.215401416520312,
+        "native_pocket_geaux_rmsd": 2.387169438288111
+    },
+    "2w66A02": {
+        "predicted_pocket_geaux_rmsd": 3.3658889426680436,
+        "native_pocket_geaux_rmsd": 1.5084862085050696
+    },
+    "1loqA00": {
+        "predicted_pocket_geaux_rmsd": 0.7755839796719699,
+        "native_pocket_geaux_rmsd": 0.37248247066456863
+    },
+    "2x00A00": {
+        "predicted_pocket_geaux_rmsd": 5.985446742251101,
+        "native_pocket_geaux_rmsd": 5.750372759292288
+    },
+    "2vl4A01": {
+        "predicted_pocket_geaux_rmsd": null,
+        "native_pocket_geaux_rmsd": null
+    },
+    "3ag9B00": {
+        "predicted_pocket_geaux_rmsd": 13.025151261023318,
+        "native_pocket_geaux_rmsd": 15.337424620004764
+    },
+    "2p4yA00": {
+        "predicted_pocket_geaux_rmsd": 8.041919480400809,
+        "native_pocket_geaux_rmsd": 6.145600511239728
+    },
+    "2v00A00": {
+        "predicted_pocket_geaux_rmsd": 6.709918792913966,
+        "native_pocket_geaux_rmsd": 1.1319811675774467
+    },
+    "1p1qC00": {
+        "predicted_pocket_geaux_rmsd": 0.43799711625323995,
+        "native_pocket_geaux_rmsd": 0.274344627458576
+    },
+    "2zcqA00": {
+        "predicted_pocket_geaux_rmsd": 5.92725083434133,
+        "native_pocket_geaux_rmsd": 2.3646419903232703
+    },
+    "2votA03": {
+        "predicted_pocket_geaux_rmsd": 5.17150072952277,
+        "native_pocket_geaux_rmsd": 2.5848842019957625
+    },
+    "3uexA00": {
+        "predicted_pocket_geaux_rmsd": 10.445386705431254,
+        "native_pocket_geaux_rmsd": 5.763228057304344
+    },
+    "1w3kA00": {
+        "predicted_pocket_geaux_rmsd": 6.881030771102332,
+        "native_pocket_geaux_rmsd": 6.24036046772483
+    },
+    "2pq9A01": {
+        "predicted_pocket_geaux_rmsd": 0.7384311958953443,
+        "native_pocket_geaux_rmsd": 0.37250998500519583
+    },
+    "2j62A02": {
+        "predicted_pocket_geaux_rmsd": 4.069398790248268,
+        "native_pocket_geaux_rmsd": 2.127222592350741
+    },
+    "3i3bA01": {
+        "predicted_pocket_geaux_rmsd": 2.956890041637215,
+        "native_pocket_geaux_rmsd": 2.979377245191798
+    },
+    "1h23A01": {
+        "predicted_pocket_geaux_rmsd": 10.71563222494491,
+        "native_pocket_geaux_rmsd": 10.081777484595108
+    },
+    "3su3A00": {
+        "predicted_pocket_geaux_rmsd": 9.64273700169063,
+        "native_pocket_geaux_rmsd": 9.689347792253372
+    },
+    "2xdlA00": {
+        "predicted_pocket_geaux_rmsd": 4.070852255056673,
+        "native_pocket_geaux_rmsd": 0.5255966662993595
+    },
+    "2jdyA00": {
+        "predicted_pocket_geaux_rmsd": 0.12972788680690323,
+        "native_pocket_geaux_rmsd": 0.6467717752273743
+    },
+    "1o5bB00": {
+        "predicted_pocket_geaux_rmsd": 2.195485370026409,
+        "native_pocket_geaux_rmsd": 0.32080050714519676
+    },
+    "3g0wA00": {
+        "predicted_pocket_geaux_rmsd": 4.331346901561529,
+        "native_pocket_geaux_rmsd": 0.8315357974855925
+    },
+    "3l3nA00": {
+        "predicted_pocket_geaux_rmsd": 4.117348279097712,
+        "native_pocket_geaux_rmsd": 4.723857888832908
+    },
+    "2wbgA00": {
+        "predicted_pocket_geaux_rmsd": null,
+        "native_pocket_geaux_rmsd": null
+    },
+    "2zwzA01": {
+        "predicted_pocket_geaux_rmsd": 4.582340267628904,
+        "native_pocket_geaux_rmsd": 3.519160153952455
+    },
+    "3gcsA00": {
+        "predicted_pocket_geaux_rmsd": 5.295531700818625,
+        "native_pocket_geaux_rmsd": 3.9691938817519987
+    },
+    "2jdmB00": {
+        "predicted_pocket_geaux_rmsd": 1.0890057059079168,
+        "native_pocket_geaux_rmsd": 0.13197582480641426
+    },
+    "1oytH00": {
+        "predicted_pocket_geaux_rmsd": 4.2477069648223145,
+        "native_pocket_geaux_rmsd": 0.665293639179974
+    },
+    "1hnnA00": {
+        "predicted_pocket_geaux_rmsd": 5.661609330078203,
+        "native_pocket_geaux_rmsd": 4.456818705646438
+    },
+    "1slnA00": {
+        "predicted_pocket_geaux_rmsd": 6.811824080418652,
+        "native_pocket_geaux_rmsd": 5.71453251361324
+    },
+    "1o3fA00": {
+        "predicted_pocket_geaux_rmsd": 2.254635740247192,
+        "native_pocket_geaux_rmsd": 0.21454545718798154
+    },
+    "4gqqA01": {
+        "predicted_pocket_geaux_rmsd": 7.098914797770152,
+        "native_pocket_geaux_rmsd": 4.786982688569769
+    },
+    "3udhA00": {
+        "predicted_pocket_geaux_rmsd": 3.59143119422566,
+        "native_pocket_geaux_rmsd": 1.2732036373427684
+    },
+    "3fcqA00": {
+        "predicted_pocket_geaux_rmsd": 3.4175460411780016,
+        "native_pocket_geaux_rmsd": 3.4183005460107143
+    },
+    "1nvqA00": {
+        "predicted_pocket_geaux_rmsd": 5.04393859182044,
+        "native_pocket_geaux_rmsd": 4.880759406986672
+    },
+    "3ueuA00": {
+        "predicted_pocket_geaux_rmsd": 7.609058088085354,
+        "native_pocket_geaux_rmsd": 6.0875490463849955
+    },
+    "3zsxB00": {
+        "predicted_pocket_geaux_rmsd": 5.133861157779098,
+        "native_pocket_geaux_rmsd": 4.917971056118928
+    },
+    "1w4oA00": {
+        "predicted_pocket_geaux_rmsd": 3.6097488447786716,
+        "native_pocket_geaux_rmsd": 0.13739328326273564
+    },
+    "3fk1A01": {
+        "predicted_pocket_geaux_rmsd": 4.870458741946184,
+        "native_pocket_geaux_rmsd": 1.1540486042624032
+    },
+    "3cj2A02": {
+        "predicted_pocket_geaux_rmsd": 1.2453896132893068,
+        "native_pocket_geaux_rmsd": 0.07068555958138356
+    },
+    "10gsA00": {
+        "predicted_pocket_geaux_rmsd": 3.963323843350771,
+        "native_pocket_geaux_rmsd": 0.41511095267446646
+    },
+    "2oleA00": {
+        "predicted_pocket_geaux_rmsd": 8.311717233199566,
+        "native_pocket_geaux_rmsd": 7.117099849845207
+    },
+    "3f17A00": {
+        "predicted_pocket_geaux_rmsd": 0.5569875859948595,
+        "native_pocket_geaux_rmsd": 0.45586706500073126
+    },
+    "2obfA00": {
+        "predicted_pocket_geaux_rmsd": 7.7347196434394885,
+        "native_pocket_geaux_rmsd": 2.04471380712399
+    },
+    "1q8uA00": {
+        "predicted_pocket_geaux_rmsd": 2.776566007106293,
+        "native_pocket_geaux_rmsd": 2.913112117494092
+    },
+    "2pcpB00": {
+        "predicted_pocket_geaux_rmsd": 6.128076381296173,
+        "native_pocket_geaux_rmsd": 3.433179518803719
+    },
+    "3uriA00": {
+        "predicted_pocket_geaux_rmsd": 11.302513881984908,
+        "native_pocket_geaux_rmsd": 11.1774672352633
+    },
+    "1sqaA00": {
+        "predicted_pocket_geaux_rmsd": 2.2210789630267533,
+        "native_pocket_geaux_rmsd": 2.4934612116235066
+    },
+    "4desA00": {
+        "predicted_pocket_geaux_rmsd": 1.0324599775599819,
+        "native_pocket_geaux_rmsd": 2.676411896944351
+    },
+    "3cftA00": {
+        "predicted_pocket_geaux_rmsd": 4.826999322560548,
+        "native_pocket_geaux_rmsd": 4.86943874507114
+    },
+    "3pxfA00": {
+        "predicted_pocket_geaux_rmsd": 5.139524959936428,
+        "native_pocket_geaux_rmsd": 3.8543598677342006
+    },
+    "2iwxA00": {
+        "predicted_pocket_geaux_rmsd": 2.1342152689376626,
+        "native_pocket_geaux_rmsd": 0.9046770473489415
+    },
+    "3f3cA00": {
+        "predicted_pocket_geaux_rmsd": 0.22435203964374342,
+        "native_pocket_geaux_rmsd": 0.07363431474314301
+    },
+    "1jyqA00": {
+        "predicted_pocket_geaux_rmsd": 8.668249216265245,
+        "native_pocket_geaux_rmsd": 3.0200965479693873
+    },
+    "1xd0A01": {
+        "predicted_pocket_geaux_rmsd": 8.8396981517059,
+        "native_pocket_geaux_rmsd": 8.253454330378059
+    },
+    "1a30A00": {
+        "predicted_pocket_geaux_rmsd": 7.206883465879634,
+        "native_pocket_geaux_rmsd": 5.448683669227613
+    },
+    "2xnbA00": {
+        "predicted_pocket_geaux_rmsd": 7.496517920934284,
+        "native_pocket_geaux_rmsd": 1.3360033176660957
+    },
+    "2brbA00": {
+        "predicted_pocket_geaux_rmsd": 6.069499357179305,
+        "native_pocket_geaux_rmsd": 5.345943608606436
+    },
+    "1u1bA00": {
+        "predicted_pocket_geaux_rmsd": 8.158452838152154,
+        "native_pocket_geaux_rmsd": 5.398408308573781
+    },
+    "3ebpA02": {
+        "predicted_pocket_geaux_rmsd": null,
+        "native_pocket_geaux_rmsd": null
+    },
+    "3u9qA00": {
+        "predicted_pocket_geaux_rmsd": 5.6260931502242295,
+        "native_pocket_geaux_rmsd": 1.5054679269804012
+    },
+    "4tmnE00": {
+        "predicted_pocket_geaux_rmsd": 8.75687319582611,
+        "native_pocket_geaux_rmsd": 2.1398792158281585
+    },
+    "1lorA00": {
+        "predicted_pocket_geaux_rmsd": 0.8306168080518135,
+        "native_pocket_geaux_rmsd": 0.40869275690358714
+    },
+    "1u33A01": {
+        "predicted_pocket_geaux_rmsd": 7.124670242603044,
+        "native_pocket_geaux_rmsd": 5.249967113971076
+    }
+}
