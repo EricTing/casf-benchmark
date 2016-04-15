@@ -1,0 +1,35 @@
+* CASF Benchmark
+
+Benchmark CASF-2015 dataset
+
+* DONE Benchmark AutoDock Vina
+CLOSED: [2016-04-13 Wed 10:29]
+1. no pockets found for the proteins below
+   | id      |
+   |---------|
+   | 1qi0A00 |
+   | 2j78A00 |
+   | 2vl4A01 |
+   | 2wbgA00 |
+   | 3ao4A00 |
+   | 3ebpA02 |
+   | 3g2nA01 |
+   | 3k5vA00 |
+   | 3l7bA01 |
+   | 3mssA00 |
+2. result
+   ./dat/vina_rmsd.json
+
+
+* DONE Benchmark GeauxDock
+CLOSED: [2016-04-14 Thu 22:12]
+** DONE using native pockets
+CLOSED: [2016-04-14 Thu 18:43]
+1. result
+   ./dat/geaux_native_rmsd.json
+
+** DONE using predicted pockets
+CLOSED: [2016-04-14 Thu 22:12]
+1. result
+   ./dat/geaux_pred_rmsd.json
+
