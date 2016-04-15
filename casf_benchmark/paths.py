@@ -4,6 +4,7 @@ DAT = "/work/jaydy/dat/website-core-set/"
 DOMAIN_DAT = "/work/jaydy/dat/dom"
 VINA_INPUT = "/work/jaydy/dat/website-core-set/input"
 VINA_BIN = "/project/michal/apps/autodock_vina_1_1_2_linux_x86/bin/vina"
+GEAUX_OUTPUT = "/work/jaydy/dat/website-core-set/output"
 BOX_GYRA_BIN = "/project/michal/apps/autodock_vina_1_1_2_linux_x86/bin/box-gyration.pl"
 
 

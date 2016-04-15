@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from paths import GEAUX_OUTPUT
 from casf_vina import EvalVinaResult
 import pandas as pd
 import luigi
@@ -38,7 +39,7 @@ class ReduceGeauxNativePktRMSD(luigi.Task):
         for tname in tnames:
             try:
                 csv_ifn = os.path.join(
-                    "/work/jaydy/dat/website-core-set/output/", tname,
+                    GEAUX_OUTPUT, tname,
                     tname + '_native_pkt.csv')
                 df = pd.read_csv(csv_ifn, sep=' ')
                 datas[tname] = df['rmsd'][0]
