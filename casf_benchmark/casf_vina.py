@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-from paths import VinaPath, VINA_BIN, BOX_GYRA_BIN, POCKETS
+from paths import VinaPath, ModelPath, VINA_BIN
+from paths import BOX_GYRA_BIN, POCKETS, MODEL_PKTS
 from dockedpose import rmsd_between  # https://gist.github.com/EricTing/4a540c8e13321954d2f3
 import luigi
 import json
@@ -88,6 +89,40 @@ class RunVina(luigi.Task):
         _ = subprocess32.check_output(shlex.split(cmd))
 
 
+class RunVinaModeledPkt(luigi.Task):
+    tname = luigi.Parameter()
+    version = luigi.Parameter(default="0.7")
+
+    def requires(self):
+        return VinaRandomizedLigand(self.tname)
+
+    def output(self):
+        ofn = os.path.join(
+            ModelPath(self.tname,
+                      self.version).work_dir, self.tname + "_vina.pdbqt")
+        return luigi.LocalTarget(ofn)
+
+    def run(self):
+        lig_pdbqt = self.requires().output().path
+        vina_path = ModelPath(self.tname, self.version)
+        lig_sdf = vina_path.lig_sdf
+        prt_pdbqt = vina_path.prt_pdbqt
+
+        cmds = ['perl', BOX_GYRA_BIN, lig_sdf]
+        stdout = subprocess32.check_output(cmds)
+        box_size, x, y, z = stdout.split()  # only for box_size
+        x, y, z = MODEL_PKTS[self.version][
+            self.tname
+        ]  # use the predicted binding pockets
+
+        ofn = self.output().path + ".txt"
+        cmd = '''%s --receptor %s --ligand %s --center_x %s --center_y %s --center_z %s --size_x %s --size_y %s --size_z %s --log %s --out %s''' % (
+            VINA_BIN, prt_pdbqt, lig_pdbqt, x, y, z, box_size, box_size,
+            box_size, ofn, self.output().path)
+        print(cmd)
+        _ = subprocess32.check_output(shlex.split(cmd))
+
+
 class RunVinaOnPredictedPocket(RunVina):
     """benchmark Vina using the predicted binding pockets
     """
@@ -148,14 +183,25 @@ class EvalVinaResult(luigi.Task):
 
 
 def main(tname):
-    luigi.build([EvalVinaResult(tname)], local_scheduler=True)
+    luigi.build(
+        [EvalVinaResult(tname), RunVinaModeledPkt(tname,
+                                                  version='0.7'),
+         RunVinaModeledPkt(tname,
+                           version="0.5")],
+        local_scheduler=True)
 
 
 def test():
     tname = "10gsA00"
-    luigi.build([EvalVinaResult(tname)], local_scheduler=True)
+    luigi.build(
+        [EvalVinaResult(tname), RunVinaModeledPkt(tname,
+                                                  version='0.7'),
+         RunVinaModeledPkt(tname,
+                           version="0.5")],
+        local_scheduler=True)
 
 
 if __name__ == '__main__':
+    # test()
     import sys
     main(sys.argv[1])

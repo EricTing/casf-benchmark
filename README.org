@@ -21,8 +21,7 @@ CLOSED: [2016-04-13 Wed 10:29]
    ./dat/vina_rmsd.json
 
 
-* DONE Benchmark GeauxDock
-CLOSED: [2016-04-14 Thu 22:12]
+* TODO Benchmark GeauxDock
 ** DONE using native pockets
 CLOSED: [2016-04-14 Thu 18:43]
 1. result
@@ -32,4 +31,9 @@ CLOSED: [2016-04-14 Thu 18:43]
 CLOSED: [2016-04-14 Thu 22:12]
 1. result
    ./dat/geaux_pred_rmsd.json
+
+** TODO using predicted protein structures
+1. 0.5 sets
+2. 0.7 sets
+
 
