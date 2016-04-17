@@ -15,19 +15,20 @@ readonly paras=/home/jaydy/Workspace/Bitbucket/geauxdock/data/parameters/paras
 
 readonly OUT_DIR=/work/jaydy/dat/website-core-set/output
 
-pdb_file=$PDB_DIR/${complex}.pdb
-sdf_file=$SDF_DIR/$(echo ${complex:0:4})_ligand.sdf
-ff_file=$FF_DIR/${complex}.ff
-
-out_dir=$OUT_DIR/${complex}
+readonly out_dir=$OUT_DIR/${complex}
 mkdir -p $out_dir
 
-csv_file=$out_dir/$complex.csv
+readonly pdb_file=$PDB_DIR/${complex}.pdb
+readonly sdf_file=$SDF_DIR/$(echo ${complex:0:4})_ligand.sdf
 
+pred_pkt_dock() {
+    mycomplex=$1
+    ff_file=$FF_DIR/${mycomplex}.ff
+    csv_file=$out_dir/$mycomplex.csv
 
-cmd="\
+    cmd="\
 ${bin} \
---id ${complex} \
+--id ${mycomplex} \
 -p ${pdb_file} \
 -l ${sdf_file} \
 -s ${ff_file} \
@@ -43,17 +44,17 @@ ${bin} \
 -r 0.08 \
 "
 
+    echo ${cmd}
+    ${cmd}
+}
 
-echo ${cmd}
-${cmd}
+native_pkt_dock() {
+    ff_file=$FF_DIR/${mycomplex}_native_pkt.ff
+    csv_file=$out_dir/${mycomplex}_native_pkt.csv
 
-
-ff_file=$FF_DIR/${complex}_native_pkt.ff
-csv_file=$out_dir/${complex}_native_pkt.csv
-
-cmd="\
+    cmd="\
 ${bin} \
---id ${complex} \
+--id ${mycomplex} \
 -p ${pdb_file} \
 -l ${sdf_file} \
 -s ${ff_file} \
@@ -68,7 +69,9 @@ ${bin} \
 -t 0.02 \
 -r 0.08 \
 "
+    echo ${cmd}
+    ${cmd}
+}
 
-
-echo ${cmd}
-${cmd}
+pred_pkt_dock $complex
+native_pkt_dock $complex
