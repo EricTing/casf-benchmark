@@ -39,6 +39,8 @@ class ModelPath:
                                    "models-" + self.version + '-pdbqt',
                                    self.id + ".pdbqt")
         self.lig_sdf = VinaPath(self.id).lig_sdf
+        self.ff = path.join(self.dat_dir, "params_ff-" + self.version,
+                            self.id + ".ff")
         self.work_dir = path.join(
             "/work/jaydy/working/casf_model_" + self.version, self.id)
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from paths import VinaPath, BOX_GYRA_BIN
+from paths import VinaPath, BOX_GYRA_BIN, MODEL_PKTS, ModelPath
 import os
 import subprocess32
 import luigi
@@ -48,6 +48,27 @@ class AddNativeCenter(luigi.Task):
             ofs.writelines(lines)
 
 
+class AddCenter2Modeled(luigi.Task):
+    tname = luigi.Parameter()
+    version = luigi.Parameter(default="0.7")
+
+    def output(self):
+        model_path = ModelPath(self.tname, self.version)
+        ff_ifn = model_path.ff
+        fn = os.path.splitext(ff_ifn)[0] + '_pkt_add.ff'
+        return luigi.LocalTarget(fn)
+
+    def run(self):
+        model_path = ModelPath(self.tname, self.version)
+        ff_ifn = model_path.ff
+        x, y, z = MODEL_PKTS[self.version][self.tname]
+        lines = file(ff_ifn).readlines()
+        center_line = "CENTER {} {} {}\n".format(x, y, z)
+        lines.insert(0, center_line)
+        with open(self.output().path, 'w') as ofs:
+            ofs.writelines(lines)
+
+
 def ff_fn(myid):
     return os.path.join("/work/jaydy/dat/website-core-set/input/params_ff",
                         myid + '.ff')
@@ -63,10 +84,25 @@ def main():
         luigi.build([AddNativeCenter(myid)], local_scheduler=True)
 
 
+def addModeledPrt():
+    for tname in [_.rstrip() for _ in file("../dat/casf_names.txt")]:
+        luigi.build([AddCenter2Modeled(tname,
+                                       version="0.7"),
+                     AddCenter2Modeled(tname,
+                                       version="0.5")],
+                    local_scheduler=True)
+
+
 def test():
-    luigi.build([AddNativeCenter("3owjA00")], local_scheduler=True)
+    luigi.build(
+        [AddNativeCenter("3owjA00"), AddCenter2Modeled("3owjA00",
+                                                       version="0.7"),
+         AddCenter2Modeled("3owjA00",
+                           version="0.5")],
+        local_scheduler=True)
 
 
 if __name__ == '__main__':
-    main()
+    # main()
     # test()
+    addModeledPrt()
