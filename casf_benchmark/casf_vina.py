@@ -157,7 +157,7 @@ class EvalVinaResult(luigi.Task):
     def requires(self):
         return [RunVina(self.tname), RunVinaOnPredictedPocket(self.tname)]
 
-    def _run(self, result):
+    def helper_run(self, result):
         result_pdbqt = result.output().path
         result_lig = pybel.readfile("pdbqt", result_pdbqt).next()
         native_lig = pybel.readfile("pdbqt",
@@ -168,8 +168,8 @@ class EvalVinaResult(luigi.Task):
 
     def run(self):
         result, result_pred_pkt = self.requires()
-        result_rmsd = self._run(result)
-        result_pred_pkt_rmsd = self._run(result_pred_pkt)
+        result_rmsd = self.helper_run(result)
+        result_pred_pkt_rmsd = self.helper_run(result_pred_pkt)
         data = {
             "native_pocket_vina_rmsd": result_rmsd,
             "predicted_pocket_vina_rmsd": result_pred_pkt_rmsd
@@ -182,12 +182,38 @@ class EvalVinaResult(luigi.Task):
         return luigi.LocalTarget(ofn)
 
 
+class EvalVinaModeledProtein(EvalVinaResult):
+    tname = luigi.Parameter()
+    version = luigi.Parameter(default="0.7")
+
+    def requires(self):
+        return RunVinaModeledPkt(self.tname, version=self.version)
+
+    def run(self):
+        result = self.requires()
+        rmsd = self.helper_run(result)
+        data = {self.version: rmsd}
+        with open(self.output().path, 'w') as ofs:
+            ofs.write(json.dumps(data, indent=4, separators=(',', ': ')))
+
+    def output(self):
+        ofn = os.path.splitext(
+            RunVinaModeledPkt(self.tname,
+                              version=self.version).output().path)[
+                                  0] + "_" + self.version + '.json'
+        return luigi.LocalTarget(ofn)
+
+
 def main(tname):
     luigi.build(
         [EvalVinaResult(tname), RunVinaModeledPkt(tname,
                                                   version='0.7'),
          RunVinaModeledPkt(tname,
-                           version="0.5")],
+                           version="0.5"),
+         EvalVinaModeledProtein(tname,
+                                version="0.5"), EvalVinaModeledProtein(
+                                    tname,
+                                    version="0.7")],
         local_scheduler=True)
 
 
@@ -196,6 +222,7 @@ def test():
     luigi.build(
         [EvalVinaResult(tname), RunVinaModeledPkt(tname,
                                                   version='0.7'),
+         EvalVinaModeledProtein(tname, "0.7"),
          RunVinaModeledPkt(tname,
                            version="0.5")],
         local_scheduler=True)
