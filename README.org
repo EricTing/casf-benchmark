@@ -43,6 +43,6 @@ CLOSED: [2016-04-19 Tue 10:54]
 | dataset                    | wall time     | machine | #nodes | settings                         |
 |----------------------------+---------------+---------+--------+----------------------------------|
 | 0.5 + 0.7 modeled proteins | 30 min 56s    | qb2 CPU |      4 | default vina, using multi-thread |
-| 0.5 + 0.7 modeled proteins | 1 h 7 min 56s | qb2 GPU |      2 | 2000 MC points for each replica  |
+| 0.5 + 0.7 modeled proteins | 1 h 7 min 36s | qb2 GPU |      2 | 2000 MC points for each replica  |
 
 
