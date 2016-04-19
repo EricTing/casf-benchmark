@@ -21,7 +21,8 @@ CLOSED: [2016-04-13 Wed 10:29]
    ./dat/vina_rmsd.json
 
 
-* TODO Benchmark GeauxDock
+* DONE Benchmark GeauxDock
+CLOSED: [2016-04-19 Tue 10:50]
 ** DONE using native pockets
 CLOSED: [2016-04-14 Thu 18:43]
 1. result
@@ -32,8 +33,16 @@ CLOSED: [2016-04-14 Thu 22:12]
 1. result
    ./dat/geaux_pred_rmsd.json
 
-** TODO using predicted protein structures
+** DONE using predicted protein structures
+CLOSED: [2016-04-19 Tue 10:50]
 1. 0.5 sets
 2. 0.7 sets
+
+** DONE Running Time
+CLOSED: [2016-04-19 Tue 10:54]
+| dataset                    | wall time     | machine | #nodes | settings                         |
+|----------------------------+---------------+---------+--------+----------------------------------|
+| 0.5 + 0.7 modeled proteins | 30 min 56s    | qb2 CPU |      4 | default vina, using multi-thread |
+| 0.5 + 0.7 modeled proteins | 1 h 7 min 56s | qb2 GPU |      2 | 2000 MC points for each replica  |
 
 
